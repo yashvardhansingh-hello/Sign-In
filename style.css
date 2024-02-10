@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("./images/Forest-Background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    width: 420px;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    background: rgba(79, 147, 83, .2);
+    border: 2px solid rgba(63, 116, 66, 0.4);
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    width: 100%;
+    position: relative;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 400px;
+    color: whitesmoke;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: whitesmoke;
+}
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.wrapper .btn {
+    color: black;
+    background-color: white;
+    width: 100%;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 10 rgba(0, 0, 0, .1);
+    font-weight: 600;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px; 
+}
+
+.remember {
+    display: flex;
+    gap: 4px;
+    color: whitesmoke;
+    padding-left: 3px;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .register-link {
+    text-align: center;
+    font-size: 14.5px;
+    margin: 20px 0 15px;
+}
+
+.register-link p, .register-link a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+    cursor:default;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
